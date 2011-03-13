@@ -1,0 +1,10 @@
+Package: jp.r-plus.hatebupatcher
+Name: HatebuPatcher
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: extend ActionSheet button to linkage Twitter.app and Read It Later.
+Maintainer: r_plus
+Author: r_plus
+Section: Tweaks
+dev: rplus

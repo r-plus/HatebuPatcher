@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>HatebuPatcher</string>
+		<key>icon</key>
+		<string>HatebuPatcher.png</string>
+	</dict>
+	<key>title</key>
+	<string>HatebuPatcher</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Read It Later</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>jp.r-plus.hatebupatcher</string>
+			<key>key</key>
+			<string>RILUser</string>
+			<key>isEmail</key>
+			<true/>
+			<key>placeholder</key>
+			<string>ReadItLater Account</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSecureEditTextCell</string>
+			<key>defaults</key>
+			<string>jp.r-plus.hatebupatcher</string>
+			<key>key</key>
+			<string>RILPassword</string>
+			<key>isEmail</key>
+			<true/>
+			<key>placeholder</key>
+			<string>ReadItLater Password</string>
+		</dict>
+		<dict>
+    			<key>cell</key>
+    			<string>PSGroupCell</string>
+    			<key>footerText</key>
+    			<string>author @r_plus</string>
+		</dict>
+		<dict>
+    			<key>cell</key>
+    			<string>PSGroupCell</string>
+    			<key>footerText</key>
+    			<string>SouceCode on github.</string>
+		</dict>
+	</array>
+</dict>
+</plist>
